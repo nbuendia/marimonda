@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "type": "beer",
+        "name": "Downeast Cider",
+        "beer-type": "Cider",
+        "abv": 5.1, 
+        "location": "Boston, MA",
+        "description": "Juicy and sweet, tastes and smells just like farm fresh cider you drank as a kid. Intensely flavorful, remarkably drinkable.",
+        "price": 9.00
+    },
+    {
+        "id": 2,
+        "type": "beer",
+        "name": "Steadfast Beer Blonde Ale",
+        "beer-type": "Blonde Ale",
+        "abv": 5.5, 
+        "location": "Albany, NY",
+        "description": "A Belgian yeast strain, coriander and sweet orange peel plus a little honey work together to make Steadfast Gluten-Free Blonde Ale the ultimate beer for Gluten-Free fun in the sun! It might be light, but it's not a Light Beer! BE STEADFAST!",
+        "price": 8.00
+    },
+    {
+        "id": 3,
+        "type": "beer",
+        "name": "White Claw",
+        "beer-type": "Hard Seltzer",
+        "abv": 5, 
+        "location": "",
+        "description": "",
+        "price": 7.00
+    },
+    {
+        "id": 4,
+        "type": "cocktail",
+        "name": "",
+        "ingredients": "",
+        "price": ""
+    },
+    {
+        "id": 5,
+        "type": "cocktail",
+        "name": "",
+        "ingredients": "",
+        "price": ""
+    },
+    {
+        "id": 6,
+        "type": "cocktail",
+        "name": "",
+        "ingredients": "",
+        "price": ""
+    },
+    {
+        "id": 7,
+        "type": "wine",
+        "name": "",
+        "wine-type": "",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 8,
+        "type": "wine",
+        "name": "",
+        "wine-type": "",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 9,
+        "type": "wine",
+        "name": "",
+        "wine-type": "",
+        "location": "",
+        "year": "",
+        "price": ""
+    }
+]
