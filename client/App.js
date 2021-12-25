@@ -17,7 +17,6 @@ const theme = createTheme({
              <ThemeProvider theme={theme}>
                 <NavBar/>
                 <AllRoutes />
-                {/* FOOTER */}
              </ThemeProvider>
          </>
      )
