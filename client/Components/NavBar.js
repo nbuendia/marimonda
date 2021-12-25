@@ -1,21 +1,14 @@
 import React, {Component} from "react";
-import reactDom from "react-dom";
 import { Link } from "react-router-dom";
 
 //MATERIAL UI
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab'
-
-import { AppBar, Button, Typography } from "@mui/material";
+import { AppBar, Button, Typography, Box } from "@mui/material";
+//MUI ICONS
 import HomeIcon from '@mui/icons-material/Home';
-import MenuBookIcon from '@mui/icons-material/MenuBook';
-import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
-import LocalBarIcon from '@mui/icons-material/LocalBar';
-import LiquorIcon from '@mui/icons-material/Liquor';
-import SportsBarIcon from '@mui/icons-material/SportsBar';
 import EventNoteIcon from '@mui/icons-material/EventNote';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
-import { Box } from "@mui/system";
+
+//COMPONENTS
 import MenuTab from "./menus/MenuTab";
 
 
