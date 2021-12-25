@@ -1,5 +1,4 @@
-import { Box, Container, Typography } from "@mui/material";
-import { typography, width } from "@mui/system";
+import { Box} from "@mui/material";
 import React, {Component} from "react";
 
 class Home extends Component {
