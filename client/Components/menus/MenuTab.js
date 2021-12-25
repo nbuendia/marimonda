@@ -1,6 +1,13 @@
-import { Box, Container, Typography, Menu, MenuItem, Button, Popper, Grow, ClickAwayListener, MenuList, ButtonGroup, Paper, Link } from "@mui/material";
-import MenuBookIcon from '@mui/icons-material/MenuBook';
 import React from "react";
+
+//MUI
+import { MenuItem, Button, Popper, Grow, ClickAwayListener, MenuList, Paper, Link } from "@mui/material";
+//MUI ICONS
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
+import LocalBarIcon from '@mui/icons-material/LocalBar';
+import LiquorIcon from '@mui/icons-material/Liquor';
+import SportsBarIcon from '@mui/icons-material/SportsBar';
 
 function MenuTab() {
     const [open, setOpen] = React.useState(false);
@@ -69,16 +76,16 @@ function MenuTab() {
                                     onKeyDown={handleListKeyDown}
                                 >
                                     <Link href="#/food" style={{textDecoration: 'none', color: 'yellow'}}>
-                                        <MenuItem onClick={handleClose}>FOOD</MenuItem>
+                                        <MenuItem onClick={handleClose}><RestaurantMenuIcon sx={{fontSize: '18px', marginRight: '10px'}}/>FOOD</MenuItem>
                                     </Link>
                                     <Link href="#/beer" style={{textDecoration: 'none', color: 'yellow'}}>
-                                        <MenuItem onClick={handleClose}>BEER</MenuItem>
+                                        <MenuItem onClick={handleClose}><SportsBarIcon sx={{fontSize: '18px', marginRight: '10px'}}/>BEER</MenuItem>
                                     </Link>
                                     <Link href="#/cocktails" style={{textDecoration: 'none', color: 'yellow'}}>
-                                        <MenuItem onClick={handleClose}>COCKTAILS</MenuItem>
+                                        <MenuItem onClick={handleClose}><LocalBarIcon sx={{fontSize: '18px', marginRight: '10px'}}/>COCKTAILS</MenuItem>
                                     </Link>
                                     <Link href="#/spirits-wines" style={{textDecoration: 'none', color: 'yellow'}}>
-                                        <MenuItem onClick={handleClose}>SPIRITS & WINES</MenuItem>
+                                        <MenuItem onClick={handleClose}><LiquorIcon sx={{frontSize: '10px', marginRight: '10px'}}/>SPIRITS & WINES</MenuItem>
                                     </Link>
                                 </MenuList>
                             </ClickAwayListener>
