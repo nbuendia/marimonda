@@ -50,7 +50,7 @@ function MenuTab() {
                 startIcon={<MenuBookIcon/>} 
                 size="large"
             >
-            MENU
+            <b>MENU</b>
             </Button>
             <Popper
                 open={open}
