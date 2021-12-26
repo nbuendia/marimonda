@@ -1,8 +1,10 @@
-import React, {Component} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 //MATERIAL UI
 import { AppBar, Button, Typography, Box } from "@mui/material";
+import { withStyles } from '@mui/styles';
+
 //MUI ICONS
 import HomeIcon from '@mui/icons-material/Home';
 import EventNoteIcon from '@mui/icons-material/EventNote';
@@ -11,13 +13,24 @@ import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact
 //COMPONENTS
 import MenuTab from "./menus/MenuTab";
 
+const styles = {
+    container: {
+        height: '20vh',
+        textAlign: 'center',
+    },
+    titleContainer: {
+        marginBottom: '-20px'
+    },
+};
 
-function NavBar() {
+function NavBar(props) {
+    const { classes } = props;
+
     return (
         <>
-            <AppBar style={{backgroundColor: 'transparent', height: '20vh', justifyContent: 'space-evenly', textAlign: 'center', paddingBottom: '20px'}} elevation={0}>
-                <Box>
-                    <Typography color={'black'} sx={{fontSize: '75px', marginBottom: '-20px'}}>
+            <AppBar className={classes.container} style={{backgroundColor: 'transparent'}} elevation={0}>
+                <Box className={classes.titleContainer}>
+                    <Typography color={'black'} sx={{fontSize: '75px'}}>
                         <b>MARIMONDA</b>
                     </Typography>
                 </Box>
@@ -47,4 +60,4 @@ function NavBar() {
     )
 }
 
-export default NavBar;
+export default withStyles(styles)(NavBar);
