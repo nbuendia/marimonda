@@ -5,7 +5,7 @@ function Cocktails() {
     return(
         <>
             <Container>
-                <Box style={{marginTop: '20vh', height: '80vh', backgroundColor: '#000000', opacity: 0.6}}>
+                <Box style={{marginTop: '20vh', height: '80vh'}}>
                     <h1>COCKTAILS</h1>
                     <h1>COCKTAILS</h1>
                     <h1>COCKTAILS</h1>
