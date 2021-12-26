@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Philosopher', sans-serif;
-    background-image: url(images/MARIMONDA.2.png);
+    background-image: url(https://i.imgur.com/N8OP5pX.png);
     background-color: #73ff0048;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -13,4 +13,8 @@ body{
 
 :any-link {
     text-decoration: none;
+}
+
+.bg-blur {
+    backdrop-filter: blur(5px);
 }
