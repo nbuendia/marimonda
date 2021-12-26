@@ -67,7 +67,7 @@ function MenuTab() {
                             transformOrigin:'left top',
                         }}
                     >
-                        <Paper style={{backgroundColor: '#000000', opacity: 0.7}}>
+                        <Paper style={{backgroundColor: 'transparent', backdropFilter: 'blur(5px)'}}>
                             <ClickAwayListener onClickAway={handleClose}>
                                 <MenuList
                                     autoFocusItem={open}
@@ -75,16 +75,16 @@ function MenuTab() {
                                     aria-labelledby="composition-button"
                                     onKeyDown={handleListKeyDown}
                                 >
-                                    <Link href="#/food" style={{textDecoration: 'none', color: 'yellow'}}>
+                                    <Link href="#/food" style={{textDecoration: 'none', color: '#db5000'}}>
                                         <MenuItem onClick={handleClose}><RestaurantMenuIcon sx={{fontSize: '18px', marginRight: '10px'}}/>FOOD</MenuItem>
                                     </Link>
-                                    <Link href="#/beer" style={{textDecoration: 'none', color: 'yellow'}}>
+                                    <Link href="#/beer" style={{textDecoration: 'none', color: '#db5000'}}>
                                         <MenuItem onClick={handleClose}><SportsBarIcon sx={{fontSize: '18px', marginRight: '10px'}}/>BEER</MenuItem>
                                     </Link>
-                                    <Link href="#/cocktails" style={{textDecoration: 'none', color: 'yellow'}}>
+                                    <Link href="#/cocktails" style={{textDecoration: 'none', color: '#db5000'}}>
                                         <MenuItem onClick={handleClose}><LocalBarIcon sx={{fontSize: '18px', marginRight: '10px'}}/>COCKTAILS</MenuItem>
                                     </Link>
-                                    <Link href="#/spirits-wines" style={{textDecoration: 'none', color: 'yellow'}}>
+                                    <Link href="#/spirits-wines" style={{textDecoration: 'none', color: '#db5000'}}>
                                         <MenuItem onClick={handleClose}><LiquorIcon sx={{frontSize: '10px', marginRight: '10px'}}/>SPIRITS & WINES</MenuItem>
                                     </Link>
                                 </MenuList>
