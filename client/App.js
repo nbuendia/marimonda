@@ -12,14 +12,14 @@ const theme = createTheme({
 });
 
  function App() {
-     return (
-         <>
-             <ThemeProvider theme={theme}>
-                <NavBar/>
+    return (
+        <>
+            <ThemeProvider theme={theme}>
+                <NavBar />
                 <AllRoutes />
-             </ThemeProvider>
-         </>
-     )
+            </ThemeProvider>
+        </>
+    )
  }
 
  export default App;
