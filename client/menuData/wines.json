@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "type": "red",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 2,
+        "name": "",
+        "type": "red",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 3,
+        "name": "",
+        "type": "red",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 4,
+        "name": "",
+        "type": "white",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 5,
+        "name": "",
+        "type": "white",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 6,
+        "name": "",
+        "type": "white",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 7,
+        "name": "",
+        "type": "rose",
+        "location": "",
+        "year": "",
+        "price": ""
+    },
+    {
+        "id": 8,
+        "name": "",
+        "type": "rose",
+        "location": "",
+        "year": "",
+        "price": ""
+    }
+]
