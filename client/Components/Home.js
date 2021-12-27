@@ -1,7 +1,7 @@
 import React from "react";
 
 //MATERIAL UI
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import { withStyles } from '@mui/styles';
 
 const styles = {
@@ -19,7 +19,7 @@ function Home(props) {
 
     return(
         <>
-            <Box className={classes.container}>
+            <Container className={classes.container}>
                 <Box className={classes.innerContainer}>
                     <Typography>
                         246 ANYPLACE ST,
@@ -37,7 +37,7 @@ function Home(props) {
                         SUNDAY | 11am - 12am
                     </Typography>
                 </Box>
-            </Box>
+            </Container>
         </>
     )
 }
