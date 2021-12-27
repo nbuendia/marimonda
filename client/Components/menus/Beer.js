@@ -1,14 +1,14 @@
-import { Box, Container } from "@mui/material";
 import React from "react";
+
+//MATERIAL UI
+import { Box, Container, Typography } from "@mui/material";
 
 function Beer() {
     return(
         <>
-            <Container>
-                <Box style={{marginTop: '20vh', height: '80vh'}}>
-                    <h1>BEER</h1>
-                    <h1>BEER</h1>
-                    <h1>BEER</h1>
+            <Container className='container'>
+                <Box className='inner-container'>
+                    <Typography>BEER</Typography>
                 </Box>
             </Container>
         </>

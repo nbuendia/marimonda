@@ -1,20 +1,18 @@
-import { Box, Container } from "@mui/material";
-import React, {Component} from "react";
+import React from "react";
 
-class Events extends Component {
-    render() {
+//MATERIAL UI
+import { Box, Container, Typography } from "@mui/material";
+
+function Events() {
         return(
-            <>
-                <Container>
-                    <Box style={{marginTop: '20vh', height: '80vh'}}>
-                        <h1>EVENTS</h1>
-                        <h1>EVENTS</h1>
-                        <h1>EVENTS</h1>
-                    </Box>
-                </Container>
-            </>
-        )
-    }
+        <>
+            <Container className='container'>
+                <Box className='inner-container'>
+                    <Typography>EVENTS</Typography>
+                </Box>
+            </Container>
+        </>
+    )
 }
 
 export default Events;

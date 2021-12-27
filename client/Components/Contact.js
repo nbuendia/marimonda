@@ -1,23 +1,18 @@
-import { Box, Container, Typography } from "@mui/material";
-import React, {Component} from "react";
+import React from "react";
 
-class Contact extends Component {
-    render() {
-        return(
-            <>
-                <Container>
-                    <Box style={{marginTop: '20vh', height: '80vh'}}>
-                        <h1>CONTACT</h1>
-                        <h1>CONTACT</h1>
-                        <h1>CONTACT</h1>
-                        <Typography>
-                            CALL US!
-                        </Typography>
-                    </Box>
-                </Container>
-            </>
-        )
-    }
+//MATERIAL UI
+import { Box, Container, Typography } from "@mui/material";
+
+function Contact() {
+    return(
+        <>
+            <Container className='container'>
+                <Box className='inner-container'>
+                    <Typography>CONTACT</Typography>
+                </Box>
+            </Container>
+        </>
+    )
 }
 
 export default Contact;
