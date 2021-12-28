@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Aguila",
+        "container": "bottle",
+        "type": "Lager",
+        "abv": 4.0, 
+        "origin": "Bogota, Colombia",
+        "description": "Pale yellow color and some subtle notes of rye, rice, grain, and metal on the nose.",
+        "price": 8.00
+    },
+    {
+        "id": 2,
+        "name": "Club Colombia",
+        "container": "bottle",
+        "type": "Pale Lager",
+        "abv": 4.7, 
+        "origin": "Bogota, Colombia",
+        "description": "An extra-dry, carefully crafted pilsner lager.",
+        "price": 8.00
+    },
+    {
+        "id": 3,
+        "name": "Poker",
+        "container": "bottle",
+        "type": "Pale Lager",
+        "abv": 4.0, 
+        "origin": "Bogota, Colombia",
+        "description": "Pale yellow color with a good head with medium retention. Aroma of malt, corn and hops.",
+        "price": 8.00
+    },
+    {
+        "id": 4,
+        "name": "Corona",
+        "container": "bottle",
+        "type": "Pale Lager",
+        "abv": 4.6, 
+        "origin": "Mexico City, Mexico",
+        "description": "A refreshing, smooth taste balanced between heavier European imports and lighter domestic beer.",
+        "price": 7.00
+    },
+    {
+        "id": 5,
+        "name": "Budweiser",
+        "container": "bottle",
+        "type": "Lager",
+        "abv": 5.0, 
+        "origin": "St. Louis, MO",
+        "description": "Medium-bodied, flavorful, crisp American-style lager. Brewed with the best barley malt and a blend of premium hop varieties.",
+        "price": 6.00
+    },
+    {
+        "id": 6,
+        "name": "Bud light",
+        "container": "bottle",
+        "type": "Light Lager",
+        "abv": 4.2, 
+        "origin": "St. Louis, MO",
+        "description": "Brewed using a blend of premium aroma hop varieties, both American-grown and imported, and a combination of barley malts and rice.",
+        "price": 6.00
+    },
+    {
+        "id": 7,
+        "name": "White Claw, Black Cherry",
+        "container": "can",
+        "type": "Hard Seltzer",
+        "abv": 5, 
+        "origin": "Canada",
+        "description": "Our most popular flavor, Black Cherry seamlessly balances the tartness and sweetness of a ripe summer cherry. It's the perfect introduction to the crisp, refreshing taste of White Claw Hard Seltzer.",
+        "price": 7.00
+    },
+    {
+        "id": 8,
+        "name": "White Claw, Mango",
+        "container": "can",
+        "type": "Hard Seltzer",
+        "abv": 5, 
+        "origin": "Canada",
+        "description": "Hard seltzer with a twist of fresh Mango flavor. Enjoy pure refreshment with this sweet, summer fruit flavor year-round.",
+        "price": 7.00
+    },
+    {
+        "id": 9,
+        "name": "White Claw, Lime",
+        "container": "can",
+        "type": "Hard Seltzer",
+        "abv": 5, 
+        "origin": "Canada",
+        "description": "The fresh flavor of Natural Lime can't be ignored. Every sip is met with a purely refreshing, zesty citrus aroma and a clean, crisp finish.",
+        "price": 7.00
+    },
+    {
+        "id": 10,
+        "name": "Downeast Cider",
+        "container": "draft",
+        "type": "Cider",
+        "abv": 5.1, 
+        "origin": "Boston, MA",
+        "description": "Juicy and sweet, tastes and smells just like farm fresh cider you drank as a kid. Intensely flavorful, remarkably drinkable.",
+        "price": 9.00
+    },
+    {
+        "id": 11,
+        "name": "Coney Island, Merman",
+        "container": "draft",
+        "type": "IPA",
+        "abv": 5.8, 
+        "origin": "Brooklyn, NY",
+        "description": "Pale yellow color with a good head with medium retention. Aroma of malt, corn and hops.",
+        "price": 8.00
+    },
+    {
+        "id": 12,
+        "name": "Founders, All Day IPA",
+        "container": "draft",
+        "type": "IPA",
+        "abv": 4.7, 
+        "origin": "Detroit, Michigan",
+        "description": "Brewed with a complex array of malts, grains and hops. Balanced for optimal aromatic and a clean finish.",
+        "price": 7.00
+    },
+    {
+        "id": 13,
+        "name": "Dogfish Head, 90 min IPA",
+        "container": "draft",
+        "type": "IPA",
+        "abv": 9.0, 
+        "origin": "Milton, Denver",
+        "description": "Bringing through a unique bold taste and intense savory notes with rich pine and fruity citrus hop aromas and a strong malt backbone.",
+        "price": 11.00
+    },
+    {
+        "id": 14,
+        "name": "Stella Artois",
+        "container": "draft",
+        "type": "Pilsner",
+        "abv": 5.0, 
+        "origin": "Leuven, Belgium",
+        "description": "Wonderful floral aroma, well-balanced malt sweetness, crisp hop bitterness, and a soft dry finish.",
+        "price": 7.00
+    },
+    {
+        "id": 15,
+        "name": "Harpoon, UFO",
+        "container": "draft",
+        "type": "Belgian White",
+        "abv": 5.1, 
+        "origin": "Boston, MA",
+        "description": "Light, crisp, refreshing and brewed with orange peel and coriander.",
+        "price": 8.00
+    },
+    {
+        "id": 16,
+        "name": "Bells, Amber Ale",
+        "container": "draft",
+        "type": "Amber Ale",
+        "abv": 5.8, 
+        "origin": "Comstock, Michigan",
+        "description": "Toasted and sweet caramel notes from carefully selected malts, balanced with herbal and citrus hop aromas, capped by a clean bitterness.",
+        "price": 7.00
+    },
+    {
+        "id": 17,
+        "name": "Delirium",
+        "container": "draft",
+        "type": "Belgian Pale Ale",
+        "abv": 8.5, 
+        "origin": "Melle, Belgium",
+        "description": "Taste this tripel and you'll be surprised by malty aromas and fruity touches of orange zest, green apples and apricots with a hint of banana.",
+        "price": 9.00
+    },
+    {
+        "id": 18,
+        "name": "Guinness",
+        "container": "draft",
+        "type": "Stout",
+        "abv": 4.2, 
+        "origin": "Dublin, Ireland",
+        "description": "Distinctively dark, with a rich creamy head and a perfect balance of bitter and sweet with malt and roast characters.",
+        "price": 7.00
+    }
+]
