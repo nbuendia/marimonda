@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //MATERIAL UI
-import { Box, Container, Grid, Tab, Tabs, Typography } from "@mui/material";
+import { Box, Container, Grid, Tab, Tabs } from "@mui/material";
 
 //COMPONENTS
 import Cans from "./beers/Cans";
