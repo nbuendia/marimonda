@@ -10,12 +10,12 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import data from '../menuData/beers.json';
 
 function Cans() {
-    const can = data.filter((beer) => beer.container === 'can');
+    const cans = data.filter((beer) => beer.container === 'can');
 
     return(
         <>
-            {can.map((beer) => (
-                <Grid key={beer.id} item xs={4}>
+            {cans.map((beer) => (
+                <Grid item key={beer.id} xs={4}>
                     <Card style={{backgroundColor: 'rgba(200, 200, 200, 0.7)'}}>
                         <CardContent className="card-content">
                             <Box>
