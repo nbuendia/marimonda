@@ -17,6 +17,7 @@ const styles = {
     container: {
         height: '20vh',
         textAlign: 'center',
+        justifyContent: 'center'
     },
     titleContainer: {
         marginBottom: '-20px'
