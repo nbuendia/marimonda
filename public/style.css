@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 20vh;
+    background-attachment: fixed;
     background-size: 80vh 80vh;
     color: rgb(0, 195, 255);
 }
@@ -22,5 +23,13 @@ body{
 }
 
 .inner-container {
-    padding-top: 10vh;
+    padding-top: 20px;
+    padding-bottom: 5vh;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -25px;
 }
