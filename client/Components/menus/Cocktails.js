@@ -22,8 +22,7 @@ function Cocktails() {
                         <Tab label='SIGNATURE' value={'signature'}/>
                     </Tabs>
                     <Grid container spacing={1} justifyContent={'center'}>
-                        {value === 'classic' ? <Classic />
-                        :  <Signature />}
+                        {value === 'classic' ? <Classic /> : <Signature />}
                     </Grid>
                 </Box>
             </Container>
