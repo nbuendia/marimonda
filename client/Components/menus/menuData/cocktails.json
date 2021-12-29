@@ -1,23 +1,106 @@
 [
     {
         "id": 1,
-        "type": "cocktail",
-        "name": "",
-        "ingredients": "",
-        "price": ""
+        "type": "classic",
+        "name": "Martini",
+        "ingredients": "Hendrick's Gin, 1757 Vermouth Di Torino, Orange Bitters",
+        "price": 11,
+        "img": "https://i.imgur.com/OhrvhMs.jpg"
     },
     {
         "id": 2,
-        "type": "cocktail",
-        "name": "",
-        "ingredients": "",
-        "price": ""
+        "type": "classic",
+        "name": "Negroni",
+        "ingredients": "Bombay Sapphire Gin, Campari, Carpano Antica Sweet Vermouth",
+        "price": 11,
+        "img": "https://i.imgur.com/5Nh8j1N.jpg"
     },
     {
         "id": 3,
-        "type": "cocktail",
-        "name": "",
-        "ingredients": "",
-        "price": ""
+        "type": "classic",
+        "name": "Daiquiri",
+        "ingredients": "Wray & Nephew Rum, Lime, Simple",
+        "price": 9,
+       "img": "https://i.imgur.com/GGYkvgk.jpg" 
+    },
+    {
+        "id": 4,
+        "type": "classic",
+        "name": "Margarita",
+        "ingredients": "Casamigos Tequila, Cointreau, Lime, Agave",
+        "price": 9,
+        "img": "https://i.imgur.com/RlKFxvf.jpg"
+    },
+    {
+        "id": 5,
+        "type": "classic",
+        "name": "Old Fashioned",
+        "ingredients": "High West Double Rye, Simple, Angostura & Orange Bitters",
+        "price": 10,
+        "img": "https://i.imgur.com/LHz6QVp.jpg"
+    },
+    {
+        "id": 6,
+        "type": "classic",
+        "name": "Manhattan",
+        "ingredients": "Bulleit Bourbon, Carpano Antica Sweet Vermouth, Angostura Bitters",
+        "price": 10,
+        "img": "https://i.imgur.com/ugJr42J.jpg"
+    },
+    {
+        "id": 7,
+        "type": "signature",
+        "name": "Black Widow",
+        "ingredients": "Widow Jane Rye, St. Germain, Peychaud Bitters",
+        "price": 14
+    },
+    {
+        "id": 8,
+        "type": "signature",
+        "name": "Fogon",
+        "ingredients": "Ilegal Joven Mezcal, Solerno, Lemon, Simple, Egg White, Angostura & Hopped Grapefruit Bitters",
+        "price": 13
+    },
+    {
+        "id": 9,
+        "type": "signature",
+        "name": "El Edén",
+        "ingredients": "The Botanist Gin, Cynar, Lime, Simple, Muddled Cucumber, Celery Shrub Bitters",
+        "price": 13
+    },
+    {
+        "id": 10,
+        "type": "signature",
+        "name": "La Flor Lilita",
+        "ingredients": "Heritage Hibiscus Vodka, Cointreau, Lillet Blanc, Splash of Prosecco",
+        "price": 12
+    },
+    {
+        "id": 11,
+        "type": "signature",
+        "name": "Café Con Leche",
+        "ingredients": "Dictador Rum, Kahlua, Disaronno Velvet Espresso, Vanilla Bitters",
+        "price": 14
+    },
+    {
+        "id": 12,
+        "type": "signature",
+        "name": "Peto Encocado",
+        "ingredients": "La Hechicera, Nixta, Coconut Milk, Cinnamon & Vanilla Bitters",
+        "price": 13
+    },
+    {
+        "id": 13,
+        "type": "signature",
+        "name": "Carnaval",
+        "ingredients": "Parce Rum, Drillaud Mango Liqueur, Blue Curacao, Pinapple Juice, Grenadine",
+        "price": 13
+    },
+    {
+        "id": 14,
+        "type": "signature",
+        "name": "Tutti Frutti",
+        "ingredients": "Ron Viejo de Caldas, Chinola, Crème de Mûra, Lemon, Simple, Egg White, Vino de Corozo",
+        "price": 14
     }
 ]
