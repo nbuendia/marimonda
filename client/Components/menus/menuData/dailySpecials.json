@@ -1,0 +1,44 @@
+[
+    {
+        "day": "Monday",
+        "entree": "Pollo Guisado con Arroz Blanco",
+        "soup": "Sopa de Lendeja",
+        "salad": "Ensalada de Papa"
+    },
+    {
+        "day": "Tuesday",
+        "entree": "Lomo de Cerdo con Arroz de Fideo",
+        "soup": "Sopa de Vegetales",
+        "salad": "Ensalada de Remolacha"
+    },
+    {
+        "day": "Wednesday",
+        "entree": "Carne Guisada con Arroz de Coco",
+        "soup": "Sopa de Pollo",
+        "salad": "Ensalada Verde"
+    },
+    {
+        "day": "Thursday",
+        "entree": "Pechuga de Pollo con Arroz Blanco",
+        "soup": "Sopa de Vegetales",
+        "salad": "Ensalada de Remolacha"
+    },
+    {
+        "day": "Friday",
+        "entree": "Carne Asada con Arroz de Fideo",
+        "soup": "Sancocho",
+        "salad": "Ensalada de Papa"
+    },
+    {
+        "day": "Saturday",
+        "entree": "Arroz de Pollo",
+        "soup": "Sopa de Lenteja",
+        "salad": "Ensalada de Remolacha"
+    },
+    {
+        "day": "Sunday",
+        "entree": "Mojarra Frita con Arroz de Coco",
+        "soup": "Sopa de Pollo",
+        "salad": "Ensalada de Papa"
+    }
+]
