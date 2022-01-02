@@ -15,7 +15,7 @@ function Cocktails() {
 
     return(
         <>
-            <Container className="container">
+            <Container className="container blur">
                 <Box className="inner-container">
                     <Tabs centered variant="fullWidth" value={value} onChange={handleChange}>
                         <Tab label='CLASSIC' value={'classic'}/>

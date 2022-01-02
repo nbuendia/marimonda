@@ -16,21 +16,21 @@ function Classic() {
         <>
             {classics.map((cocktail) => (
                 <Grid item key={cocktail.id} xs={6}>
-                    <Card className='cocktail-card' style={{backgroundColor: 'rgba(200, 200, 200, 0.7)'}}>
+                    <Card className='flex-row' style={{backgroundColor: 'rgba(200, 200, 200, 0.7)', height: 100}}>
                         <CardMedia 
                             component='img'
                             image={cocktail.img}
                             alt='Cocktail Image'
-                            sx={{width: 75, alignItems: 'center'}}
+                            sx={{width: 60, alignItems: 'center'}}
                         />
-                        <CardContent className="cocktail-card-content">
-                            <Box className="cocktail-name-price">
+                        <CardContent className="flex-col cocktail-card-content">
+                            <Box className="flex-row cocktail-name-price-classic">
                                 <Typography fontSize={20}><b>{cocktail.name}</b></Typography>
                                 <Typography fontSize={18}><b>${cocktail.price}</b></Typography>
                             </Box>
-                            <Box className="drink-description" fontSize={15}>
+                            <Box className="flex-row drink-description" fontSize={15}>
                                 <ReactReadMoreReadLess
-                                    charLimit={60}
+                                    charLimit={65}
                                     readMoreText={<KeyboardArrowDownIcon />}
                                     readLessText={<ExpandLessIcon />}
                                 >

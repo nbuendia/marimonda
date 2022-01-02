@@ -6,7 +6,7 @@ import { Box, Container, Typography } from "@mui/material";
 function Food() {
     return(
         <>
-            <Container className='container'>
+            <Container className='container blur'>
                 <Box className='inner-container'>
                     <Typography>FOOD</Typography>
                 </Box>

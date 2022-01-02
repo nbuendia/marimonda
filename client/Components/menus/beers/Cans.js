@@ -18,14 +18,14 @@ function Cans() {
                 <Grid item key={beer.id} xs={4}>
                     <Card style={{backgroundColor: 'rgba(200, 200, 200, 0.7)'}}>
                         <CardContent>
-                            <Box className="beer-name-price">
+                            <Box className="flex-row beer-name-price">
                                 <Box>
                                     <Typography fontSize={18}><b>{beer.name}</b></Typography>
                                     <Typography fontSize={13}><i>{beer.type}</i></Typography>
                                 </Box>
                                 <Typography fontSize={18}><b>${beer.price}</b></Typography>
                             </Box>
-                            <Box className="drink-description">
+                            <Box className="flex-row drink-description">
                                 <ReactReadMoreReadLess
                                     charLimit={50}
                                     readMoreText={<KeyboardArrowDownIcon />}

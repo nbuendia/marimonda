@@ -6,7 +6,7 @@ import { Box, Container, Typography } from "@mui/material";
 function Events() {
         return(
         <>
-            <Container className='container'>
+            <Container className='container blur'>
                 <Box className='inner-container'>
                     <Typography>EVENTS</Typography>
                 </Box>
