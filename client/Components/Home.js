@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 //MATERIAL UI
-import { Box, Button, Container, IconButton, Typography } from "@mui/material";
+import { Box, Container } from "@mui/material";
 
 //COMPONENTS
 import Address from "./home/Address";

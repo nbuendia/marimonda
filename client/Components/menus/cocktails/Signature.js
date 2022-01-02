@@ -2,7 +2,7 @@ import React from "react";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
 //MATERIAL UI
-import { Box, Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
 //MATERIAL UI ICONS
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
