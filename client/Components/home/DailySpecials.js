@@ -24,29 +24,27 @@ function DailySpecials() {
         <>
             {showSpecials ? 
                 <Box>
-                    <Box className="flex-row alignment" style={{justifyContent: 'flex-end'}}>
-                        <Typography className="blur">
-                            <b><u>LUNCH SPECIAL <span style={{color: 'red'}}>$9.99</span></u></b>
+                    <Box className="flex-row alignment" justifyContent={'center'}>
+                        <Typography className="blur" fontSize={20}>
+                            <b><u>LUNCH SPECIAL</u></b><br/>
                         </Typography>
                         <IconButton className="blur" onClick={handleChangeSpecials}>
                             <ExpandLessIcon className="button"/>
                         </IconButton>
                     </Box>
-                    <Box className="alignment">
+                    <Box className="alignment" >
                         <Typography className="blur">
-                            {lunch.entree} aconpañado con
-                        </Typography>
-                        <Typography className="blur">
-                            {lunch.soup} y
-                        </Typography>
-                        <Typography className="blur">
-                            {lunch.salad}
+                            <span style={{fontSize: '14px'}}>MON - FRI <b>|</b> 11am - 3pm</span><br/>
+                            <b>{lunch.entree.toUpperCase()}</b><br/>
+                            <b>{lunch.soup.toUpperCase()} Y</b><br/>
+                            <b>{lunch.salad.toUpperCase()}</b><br/>
+                            <i style={{fontSize: '15px'}}>$9.99</i><br/>
                         </Typography>
                     </Box>
                 </Box> :
-                <Box className="flex-row alignment">
-                    <Typography className="blur">
-                        <b>LUNCH SPECIAL <span style={{color: 'red'}}>$9.99</span></b>
+                <Box className="flex-row alignment" justifyContent={'center'}>
+                    <Typography className="blur" fontSize={20}>
+                        <b>LUNCH SPECIAL</b>
                     </Typography>
                     <IconButton className="blur" onClick={handleChangeSpecials}>
                         <KeyboardArrowDownIcon className="button"/>
