@@ -9,7 +9,6 @@ body{
     background-position-y: 20vh;
     background-attachment: fixed;
     background-size: 75vh 75vh;
-    /* color: rgb(0, 195, 255); */
     color: black;
 }
 
@@ -30,6 +29,7 @@ body{
 
 .blur {
     backdrop-filter: blur(5px);
+    border-radius: 15px;
 }
 
 .address-container {
