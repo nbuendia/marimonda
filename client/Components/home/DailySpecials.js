@@ -38,7 +38,7 @@ function DailySpecials() {
                             <b>{lunch.entree.toUpperCase()}</b><br/>
                             <b>{lunch.soup.toUpperCase()} Y</b><br/>
                             <b>{lunch.salad.toUpperCase()}</b><br/>
-                            <i style={{fontSize: '15px'}}>$9.99</i><br/>
+                            <i className="price">$9.99</i><br/>
                         </Typography>
                     </Box>
                 </Box> :
