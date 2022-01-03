@@ -7,6 +7,7 @@ import { Box, Container } from "@mui/material";
 import Address from "./home/Address";
 import Schedule from "./home/Schedule";
 import DailySpecials from "./home/DailySpecials";
+import HappyHour from "./home/HappyHour";
 
 function Home() {
     return(
@@ -15,12 +16,17 @@ function Home() {
                 <Box className='address-container'>
                     <Address />
                 </Box>
-                <Box className="flex-row" style={{justifyContent: 'space-between', textAlign: 'center'}}>
-                    <Box>
+                <Box className="flex-row" justifyContent={'space-between'} textAlign={'center'}>
+                    <Box width={250}>
                         <Schedule />
                     </Box>
-                    <Box>
-                        <DailySpecials />
+                    <Box width={250}>
+                        <Box height={200}>
+                            <DailySpecials />
+                        </Box>
+                        <Box>
+                            <HappyHour />
+                        </Box>
                     </Box>
                 </Box>
             </Container>
