@@ -46,9 +46,10 @@ function MenuTab() {
                 aria-expanded={open ? 'true' : undefined}
                 aria-haspopup="true"
                 onClick={handleToggle}
-                color="success" 
+                // color="success" 
                 startIcon={<MenuBookIcon/>} 
                 size="large"
+                style={{color: '#005eff'}}
             >
             <b>MENU</b>
             </Button>
