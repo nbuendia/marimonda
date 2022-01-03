@@ -9,7 +9,7 @@ body{
     background-position-y: 20vh;
     background-attachment: fixed;
     background-size: 75vh 75vh;
-    color: black;
+    color: rgb(50, 50, 50);
 }
 
 :any-link {
@@ -55,6 +55,13 @@ body{
 .button:hover {
     background-color: rgba(107, 255, 169, 0.2);
     border-radius: 10px;
+}
+
+.price {
+    font-size: 15px;
+    border: 1px dotted red;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .flex-row {
