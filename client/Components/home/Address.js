@@ -15,11 +15,11 @@ function Address() {
         <Box className='address-container'>
             <Button disableRipple variant="text" onClick={handleChangeAddress} className='blur'>
                 {showAddress ? 
-                    <Typography color='black' fontSize={20} className="address">
+                    <Typography color='black' fontSize={25} className="address">
                         <b>246 ANYPLACE ST,
                         12345 NEW YORK, NY</b>
                     </Typography> : 
-                    <Typography color='black' fontSize={20} className="address">
+                    <Typography color='black' fontSize={25} className="address">
                     <b>ADDRESS</b>
                     </Typography>
                 }
