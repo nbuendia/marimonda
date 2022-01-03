@@ -18,8 +18,8 @@ function Schedule() {
         <>
             {showSchedule ? 
                 <Box>
-                    <Box className="flex-row alignment">
-                        <Typography className="blur">
+                    <Box className="flex-row alignment" justifyContent={'flex-end'}>
+                        <Typography className="blur" fontSize={20}>
                             <b><u>HOURS OF OPERATION</u></b>
                         </Typography>
                         <IconButton className="blur" onClick={handleChangeSchedule}>
@@ -27,17 +27,16 @@ function Schedule() {
                         </IconButton>
                     </Box>
                     <Typography className="blur">
-                        <b>MONDAY | 11am - 10pm <br/>
-                        TUESDAY | 11am - 10pm <br/>
-                        WEDNESDAY | 10am - 12am <br/>
-                        THURSDAY | 10am - 12am <br/>
-                        FRIDAY | 10am - 2am <br/>
-                        SATURDAY | 11am - 2am <br/>
-                        SUNDAY | 11am - 12am</b>
+                        <b>MONDAY - THURSDAY</b><br/>
+                        <b>11am - 12pm</b><br/>
+                        <b>FRIDAY & SATURDAY</b><br/>
+                        <b>11am - 2am</b><br/>
+                        <b>SUNDAY</b><br/>
+                        <b>12pm - 10am</b>
                     </Typography>
                 </Box> :
-                <Box className="flex-row alignment">
-                    <Typography className="blur">
+                <Box className="flex-row alignment" justifyContent={'flex-end'}>
+                    <Typography className="blur" fontSize={20}>
                         <b>HOURS OF OPERATION</b>
                     </Typography>
                     <IconButton className="blur" onClick={handleChangeSchedule}>
