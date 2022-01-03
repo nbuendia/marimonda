@@ -31,13 +31,13 @@ function NavBar(props) {
         <>
             <AppBar className={classes.container} style={{backgroundColor: 'transparent'}} elevation={0}>
                 <Box className={classes.titleContainer}>
-                    <Typography color={'black'} sx={{fontSize: '75px'}}>
+                    <Typography color={'yellow'} fontSize={75} style={{textShadow: '3px 3px 3px blue, 5px 5px 3px red'}}>
                         <b>MARIMONDA</b>
                     </Typography>
                 </Box>
                 <Box>
                     <Link to={'/'}>
-                        <Button color="success" startIcon={<HomeIcon/>} size="large">
+                        <Button style={{color: '#005eff'}} startIcon={<HomeIcon/>} size="large">
                             <b>HOME</b>
                         </Button>
                     </Link>
@@ -45,13 +45,13 @@ function NavBar(props) {
                     <MenuTab/>
 
                     <Link to={'/events'}>
-                        <Button color="success" startIcon={<EventNoteIcon/>} size="large">
+                        <Button style={{color: '#005eff'}} startIcon={<EventNoteIcon/>} size="large">
                             <b>EVENTS</b>
                         </Button>
                     </Link>
 
                     <Link to={'/contact'}>
-                        <Button color="success" startIcon={<ConnectWithoutContactIcon/>} size="large">
+                        <Button style={{color: '#005eff'}} startIcon={<ConnectWithoutContactIcon/>} size="large">
                             <b>CONTACT US</b>
                         </Button>
                     </Link>
