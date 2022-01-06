@@ -28,12 +28,16 @@ body{
 }
 
 .blur {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     border-radius: 15px;
 }
 
 .home-info-container {
-    backdrop-filter: blur(10px);
+    padding-bottom: 25px;
+}
+
+.home-photo-container {
+    padding-top: 25px;
     padding-bottom: 25px;
 }
 
@@ -48,7 +52,6 @@ body{
     height: 2px;
     background-color: green;
     border: none;
-    /* margin-bottom: 25px; */
 }
 
 .hr-address-splitter {
@@ -67,7 +70,6 @@ body{
 }
 
 .address {
-    /* padding: 2px; */
     border-radius: 5px;
 }
 
@@ -92,8 +94,24 @@ body{
     padding: 2px;
 }
 
-.test {
-    offset-position: right center;
+.photo-container {
+    justify-content: space-around;
+}
+
+.inner-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-description {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .4);
 }
 
 .flex-row {
