@@ -32,6 +32,34 @@ body{
     border-radius: 15px;
 }
 
+.home-info-container {
+    backdrop-filter: blur(10px);
+    padding-bottom: 25px;
+}
+
+.info-inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.hr-splitter {
+    height: 2px;
+    background-color: green;
+    border: none;
+    /* margin-bottom: 25px; */
+}
+
+.hr-address-splitter {
+    width: 50vw;
+    height: 1px;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
 .address-container {
     display: flex;
     justify-content: center;
@@ -39,7 +67,7 @@ body{
 }
 
 .address {
-    padding: 2px;
+    /* padding: 2px; */
     border-radius: 5px;
 }
 
@@ -62,6 +90,10 @@ body{
     border: 1px dotted red;
     border-radius: 5px;
     padding: 2px;
+}
+
+.test {
+    offset-position: right center;
 }
 
 .flex-row {
