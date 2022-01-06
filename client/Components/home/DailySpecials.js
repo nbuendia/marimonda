@@ -23,7 +23,7 @@ function DailySpecials() {
     return(
         <>
             {showSpecials ? 
-                <Box>
+                <Box width={'25vw'}>
                     <Box className="flex-row alignment" justifyContent={'center'}>
                         <Typography className="blur" fontSize={20}>
                             <b><u>LUNCH SPECIAL</u></b><br/>
@@ -33,7 +33,7 @@ function DailySpecials() {
                         </IconButton>
                     </Box>
                     <Box className="alignment" >
-                        <Typography className="blur">
+                        <Typography className="blur" textAlign={'center'}>
                             <span style={{fontSize: '14px'}}>MON - FRI <b>|</b> 11am - 3pm</span><br/>
                             <b>{lunch.entree.toUpperCase()}</b><br/>
                             <b>{lunch.soup.toUpperCase()} Y</b><br/>
@@ -42,7 +42,7 @@ function DailySpecials() {
                         </Typography>
                     </Box>
                 </Box> :
-                <Box className="flex-row alignment" justifyContent={'center'}>
+                <Box className="flex-row alignment" justifyContent={'center'} width={'25vw'}>
                     <Typography className="blur" fontSize={20}>
                         <b>LUNCH SPECIAL</b>
                     </Typography>
