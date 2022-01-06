@@ -17,7 +17,7 @@ function HappyHour() {
     return(
         <>
             {showHappyHour ? 
-                <Box>
+                <Box width={'25vw'}>
                     <Box className="flex-row alignment" justifyContent={'center'}>
                         <Typography className="blur" fontSize={20}>
                             <b><u>HAPPY HOUR</u></b>
@@ -26,7 +26,7 @@ function HappyHour() {
                             <ExpandLessIcon className="button" />
                         </IconButton>
                     </Box>
-                    <Typography className="blur">
+                    <Typography className="blur" textAlign={'center'}>
                         <span style={{fontSize: '14px'}}>MON - FRI <b>|</b> 4pm - 7pm</span><br/>
                         <b>$2 OFF ALL DRAFTS</b><br/>
                         <b>$8 REFAJO PITCHERS</b><br/>
@@ -34,7 +34,7 @@ function HappyHour() {
                         <b>$3 AGUARDIENTE SHOTS</b>
                     </Typography>
                 </Box> :
-                <Box className="flex-row alignment" justifyContent={'center'}>
+                <Box className="flex-row alignment" justifyContent={'center'} width={'25vw'}>
                     <Typography className="blur" fontSize={20}>
                         <b>HAPPY HOUR</b>
                     </Typography>
