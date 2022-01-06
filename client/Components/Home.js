@@ -14,9 +14,9 @@ function Home() {
     return(
         <>
             <Container style={{height: '95vh'}} />
-            <Container className="home-info-container">
-                <hr className="hr-splitter" style={{marginBottom: '25px'}}/>
-                <Box>
+            <hr className="hr-splitter"/>
+            <Container className="home-info-container blur">
+                <Box style={{paddingTop: '25px'}}>
                     <Address />
                 </Box>
                 <hr className="hr-address-splitter" />
@@ -27,10 +27,10 @@ function Home() {
                 </Box>
             </Container>
             <hr className="hr-splitter"/>
-            <Container className="blur" style={{paddingTop: '25px', marginBottom: '5vh'}} >
+            <Container className="blur home-photo-container" >
                 <Photos />
-                <hr className="hr-splitter" style={{marginTop: '25px'}}/>
             </Container>
+            <hr className="hr-splitter" style={{marginBottom: '5vh'}}/>
         </>
     )
 }
