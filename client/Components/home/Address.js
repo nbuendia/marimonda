@@ -13,7 +13,7 @@ function Address() {
 
     return(
         <Box className='address-container'>
-            <Button disableRipple variant="text" onClick={handleChangeAddress} className='blur'>
+            <Button disableRipple variant="text" onClick={handleChangeAddress}>
                 {showAddress ? 
                     <Typography color='rgb(50, 50, 50)' fontSize={20} className="address">
                         <b>246 ANYPLACE ST,

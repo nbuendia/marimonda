@@ -19,14 +19,14 @@ function HappyHour() {
             {showHappyHour ? 
                 <Box width={'25vw'}>
                     <Box className="flex-row alignment" justifyContent={'center'}>
-                        <Typography className="blur" fontSize={20}>
+                        <Typography fontSize={20}>
                             <b><u>HAPPY HOUR</u></b>
                         </Typography>
-                        <IconButton className="blur" onClick={handleChangeHappyHour}>
+                        <IconButton onClick={handleChangeHappyHour}>
                             <ExpandLessIcon className="button" />
                         </IconButton>
                     </Box>
-                    <Typography className="blur" textAlign={'center'}>
+                    <Typography textAlign={'center'}>
                         <span style={{fontSize: '14px'}}>MON - FRI <b>|</b> 4pm - 7pm</span><br/>
                         <b>$2 OFF ALL DRAFTS</b><br/>
                         <b>$8 REFAJO PITCHERS</b><br/>
@@ -35,10 +35,10 @@ function HappyHour() {
                     </Typography>
                 </Box> :
                 <Box className="flex-row alignment" justifyContent={'center'} width={'25vw'}>
-                    <Typography className="blur" fontSize={20}>
+                    <Typography fontSize={20}>
                         <b>HAPPY HOUR</b>
                     </Typography>
-                    <IconButton className="blur" onClick={handleChangeHappyHour}>
+                    <IconButton onClick={handleChangeHappyHour}>
                         <KeyboardArrowDownIcon className="button" />
                     </IconButton>
                 </Box>
