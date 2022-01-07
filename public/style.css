@@ -28,7 +28,7 @@ body{
 }
 
 .blur {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     border-radius: 15px;
 }
 
@@ -145,4 +145,13 @@ body{
 
 .drink-description {
     align-items: center;
+}
+
+.spirit-paper-container {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 1px solid grey;
 }
