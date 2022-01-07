@@ -1,219 +1,408 @@
 [
     {
         "id": 1,
-        "name": "",
-        "catagory": "vodka",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Tito's",
+        "category": "vodka",
+        "shot-price": 7.00,
+        "neat-price": 10.00
     },
     {
         "id": 2,
-        "name": "",
-        "catagory": "vodka",
-        "shot-price": 8.00,
+        "name": "Ketel One",
+        "category": "vodka",
+        "shot-price": 9.00,
         "neat-price": 12.00
     },
     {
         "id": 3,
-        "name": "",
-        "catagory": "vodka",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Stoli",
+        "category": "vodka",
+        "shot-price": 7.00,
+        "neat-price": 10.00
     },
     {
         "id": 4,
-        "name": "",
-        "catagory": "vodka",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Stoli Vanilla",
+        "category": "vodka",
+        "shot-price": 7.00,
+        "neat-price": 10.00
     },
     {
         "id": 5,
-        "name": "",
-        "catagory": "vodka",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Stoli Ohrnaj",
+        "category": "vodka",
+        "shot-price": 7.00,
+        "neat-price": 10.00
     },
     {
         "id": 6,
-        "name": "",
-        "category": "gin",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Stoli Razberi",
+        "category": "vodka",
+        "shot-price": 7.00,
+        "neat-price": 10.00
     },
     {
         "id": 7,
-        "name": "",
-        "category": "gin",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Stoli Blueberi",
+        "category": "vodka",
+        "shot-price": 7.00,
+        "neat-price": 10.00
     },
     {
         "id": 8,
-        "name": "",
-        "category": "gin",
+        "name": "Heritage Lavender",
+        "category": "vodka",
         "shot-price": 8.00,
-        "neat-price": 12.00
+        "neat-price": 11.00
     },
     {
         "id": 9,
-        "name": "",
-        "category": "rum",
+        "name": "Heritage Hibiscus",
+        "category": "vodka",
         "shot-price": 8.00,
-        "neat-price": 12.00
+        "neat-price": 11.00
     },
     {
         "id": 10,
-        "name": "",
-        "category": "rum",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Tanqueray",
+        "category": "gin",
+        "shot-price": 7.00,
+        "neat-price": 9.00
     },
     {
         "id": 11,
-        "name": "",
-        "category": "rum",
+        "name": "Bombay Sapphire",
+        "category": "gin",
         "shot-price": 8.00,
-        "neat-price": 12.00
+        "neat-price": 11.00
     },
     {
         "id": 12,
-        "name": "",
-        "category": "rum",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Hendrick's",
+        "category": "gin",
+        "shot-price": 9.00,
+        "neat-price": 11.00
     },
     {
         "id": 13,
-        "name": "",
-        "category": "rum",
-        "shot-price": 8.00,
+        "name": "Brooklyn",
+        "category": "gin",
+        "shot-price": 10.00,
         "neat-price": 12.00
     },
     {
         "id": 14,
-        "name": "",
-        "catagory": "tequila",
-        "shot-price": 8.00,
+        "name": "The Botanist",
+        "category": "gin",
+        "shot-price": 10.00,
         "neat-price": 12.00
     },
     {
         "id": 15,
-        "name": "",
-        "catagory": "tequila",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Dictador 12",
+        "category": "rum",
+        "shot-price": 11.00,
+        "neat-price": 14.00
     },
     {
         "id": 16,
-        "name": "",
-        "catagory": "tequila",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "La Hechicera Solera 21",
+        "category": "rum",
+        "shot-price": 10.00,
+        "neat-price": 13.00
     },
     {
         "id": 17,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Parce 8",
+        "category": "rum",
+        "shot-price": 10.00,
+        "neat-price": 13.00
     },
     {
         "id": 18,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Ron Viejo de Caldas 8",
+        "category": "rum",
+        "shot-price": 7.00,
+        "neat-price": 9.00
     },
     {
         "id": 19,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Ron Medellin 8",
+        "category": "rum",
+        "shot-price": 7.00,
+        "neat-price": 9.00
     },
     {
         "id": 20,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Casamigos Blanco",
+        "category": "tequila",
+        "shot-price": 9.00,
+        "neat-price": 11.00
     },
     {
         "id": 21,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Casamigos Reposado",
+        "category": "tequila",
+        "shot-price": 12.00,
+        "neat-price": 14.00
     },
     {
         "id": 22,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Herradura Silver",
+        "category": "tequila",
+        "shot-price": 9.00,
+        "neat-price": 11.00
     },
     {
         "id": 23,
-        "name": "",
-        "catagory": "whiskey",
+        "name": "Milago Silver",
+        "category": "tequila",
         "shot-price": 8.00,
-        "neat-price": 12.00
+        "neat-price": 10.00
     },
     {
         "id": 24,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Espolòn",
+        "category": "tequila",
+        "shot-price": 7.00,
+        "neat-price": 9.00
     },
     {
         "id": 25,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
+        "name": "Maestro Dobel Diamante",
+        "category": "tequila",
+        "shot-price": 10.00,
         "neat-price": 12.00
     },
     {
         "id": 26,
-        "name": "",
-        "catagory": "whiskey",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Don Julio 1942",
+        "category": "tequila",
+        "shot-price": 35.00,
+        "neat-price": 40.00
     },
     {
         "id": 27,
-        "name": "",
-        "catagory": "liqueur",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Clase Azul Reposado",
+        "category": "tequila",
+        "shot-price": 55.00,
+        "neat-price": 60.00
     },
     {
         "id": 28,
-        "name": "",
-        "catagory": "liqueur",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Montelobos",
+        "category": "mezcal",
+        "shot-price": 15.00,
+        "neat-price": 17.00
     },
     {
         "id": 29,
-        "name": "",
-        "catagory": "liqueur",
-        "shot-price": 8.00,
+        "name": "Del Maguey Vida",
+        "category": "mezcal",
+        "shot-price": 10.00,
         "neat-price": 12.00
     },
     {
         "id": 30,
-        "name": "",
-        "catagory": "liqueur",
-        "shot-price": 8.00,
-        "neat-price": 12.00
+        "name": "Illegal Joven",
+        "category": "mezcal",
+        "shot-price": 14.00,
+        "neat-price": 16.00
     },
     {
         "id": 31,
-        "name": "",
-        "catagory": "liqueur",
-        "shot-price": 8.00,
+        "name": "Bulleit",
+        "category": "bourbon whiskey",
+        "shot-price": 10.00,
         "neat-price": 12.00
+    },
+    {
+        "id": 32,
+        "name": "Maker's Mark",
+        "category": "bourbon whiskey",
+        "shot-price": 9.00,
+        "neat-price": 11.00
+    },
+    {
+        "id": 33,
+        "name": "Woodford Reserve",
+        "category": "bourbon whiskey",
+        "shot-price": 12.00,
+        "neat-price": 14.00
+    },
+    {
+        "id": 34,
+        "name": "Basil Hayden",
+        "category": "bourbon whiskey",
+        "shot-price": 12.00,
+        "neat-price": 14.00
+    },
+    {
+        "id": 35,
+        "name": "Blanton's",
+        "category": "bourbon whiskey",
+        "shot-price": 14.00,
+        "neat-price": 16.00
+    },
+    {
+        "id": 36,
+        "name": "Bulleit",
+        "category": "rye whiskey",
+        "shot-price": 10.00,
+        "neat-price": 12.00
+    },
+    {
+        "id": 37,
+        "name": "Widow Jane",
+        "category": "rye whiskey",
+        "shot-price": 11.00,
+        "neat-price": 13.00
+    },
+    {
+        "id": 38,
+        "name": "Templeton",
+        "category": "rye whiskey",
+        "shot-price": 12.00,
+        "neat-price": 14.00
+    },
+    {
+        "id": 39,
+        "name": "Johnnie Walker Black",
+        "category": "scotch whiskey",
+        "shot-price": 9.00,
+        "neat-price": 11.00
+    },
+    {
+        "id": 40,
+        "name": "The Balvenie 12",
+        "category": "scotch whiskey",
+        "shot-price": 12.00,
+        "neat-price": 14.00
+    },
+    {
+        "id": 41,
+        "name": "Oban 14",
+        "category": "scotch whiskey",
+        "shot-price": 12.00,
+        "neat-price": 14.00
+    },
+    {
+        "id": 42,
+        "name": "Laphroig 10",
+        "category": "scotch whiskey",
+        "shot-price": 14.00,
+        "neat-price": 16.00
+    },
+    {
+        "id": 43,
+        "name": "Lagavulin 16",
+        "category": "scotch whiskey",
+        "shot-price": 16.00,
+        "neat-price": 18.00
+    },
+    {
+        "id": 44,
+        "name": "Cointreau",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 45,
+        "name": "Grand Marnier",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 46,
+        "name": "Aperol",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 47,
+        "name": "Campari",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 48,
+        "name": "St Germain",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 49,
+        "name": "Lillet Blanc",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 50,
+        "name": "Pama",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 51,
+        "name": "Chambord",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 52,
+        "name": "Chinola",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 53,
+        "name": "Drillaud Mango",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 54,
+        "name": "Solerno",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 55,
+        "name": "Nixta",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 56,
+        "name": "Kahlua",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 57,
+        "name": "Luxardo",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
+    },
+    {
+        "id": 58,
+        "name": "Drillaud Blue Curacao",
+        "category": "liqueur",
+        "shot-price": 0,
+        "neat-price": 0
     }
 ]
