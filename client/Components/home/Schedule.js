@@ -17,7 +17,7 @@ function Schedule() {
     return(
         <>
             {showSchedule ? 
-                <Box width={'25vw'}>
+                <Box className="blur" width={'15vw'}>
                     <Box className="flex-row alignment" justifyContent={'center'}>
                         <Typography fontSize={20}>
                             <b><u>HOURS</u></b>
@@ -35,7 +35,7 @@ function Schedule() {
                         <b>12pm - 10am</b>
                     </Typography>
                 </Box> :
-                <Box className="flex-row alignment" justifyContent={'center'} width={'25vw'}>
+                <Box className="flex-row alignment blur" justifyContent={'center'}  width={'15vw'}>
                     <Typography fontSize={20}>
                         <b>HOURS</b>
                     </Typography>
