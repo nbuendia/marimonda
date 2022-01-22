@@ -28,21 +28,21 @@ function Photos() {
     }
 
     return(
-        <Box className="flex-row alignment photo-container">
-            <Box className="inner-photo-container" width={'25vw'}>
-                <IconButton onClick={handlePrevPhoto}>
-                    <ArrowBackIosNewIcon className="button"/>
-                </IconButton>
+        <Box className="flex-col alignment photo-container blur" width={'25vw'}>
                 <img src={currentPhoto}/>
-                <IconButton onClick={handleNextPhoto}>
-                    <ArrowForwardIosIcon className="button" />
-                </IconButton>
-            </Box>
-            <Box width={'25vw'}>
+                <Box style={{display: 'flex', justifyContent: 'space-between', width: '50%'}}>
+                    <IconButton onClick={handlePrevPhoto}>
+                        <ArrowBackIosNewIcon className="button"/>
+                    </IconButton>
+                    <IconButton onClick={handleNextPhoto}>
+                        <ArrowForwardIosIcon className="button" />
+                    </IconButton>
+                </Box>
+            {/* <Box width={'25vw'}>
                 <Paper className="photo-description">
                     {photoDescription[currPhoto]}
                 </Paper>
-            </Box>
+            </Box> */}
         </Box>
     )
 }
