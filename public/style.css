@@ -18,8 +18,7 @@ body{
 
 .container {
     margin-top: 20vh;
-    height: 80vh;
-    padding-top: 5vh;
+    height: 75vh;
 }
 
 .inner-container {
@@ -162,3 +161,7 @@ body{
     margin-right: 25px;
     border-bottom: 1px solid grey;
 }
+
+/* .event-calender-container {} */
+
+/* .event-info-container {} */
