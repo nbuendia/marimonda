@@ -28,7 +28,7 @@ function Photos() {
     }
 
     return(
-        <Box className="flex-col alignment photo-container blur" width={'25vw'}>
+        <Box className="flex-col alignment photo-container blur">
                 <img src={currentPhoto}/>
                 <Box style={{display: 'flex', justifyContent: 'space-between', width: '50%'}}>
                     <IconButton onClick={handlePrevPhoto}>
