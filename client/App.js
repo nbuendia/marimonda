@@ -1,5 +1,6 @@
 import React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import 'react-calendar/dist/Calendar.css';
 
 //COMPONENTS
 import AllRoutes from './AllRoutes';
