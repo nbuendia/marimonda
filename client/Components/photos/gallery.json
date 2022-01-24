@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.imgur.com/hTdVE68m.jpg",
+        "description": "Astro Pointing to a stray cat in the street"
+    },
+    {
+        "id": 2,
+        "img": "https://i.imgur.com/wqPqOIIm.jpg",
+        "description": "Happy Astro posing for the picture with his tongue out"
+    },
+    {
+        "id": 3,
+        "img": "https://i.imgur.com/2p7rfvdm.jpg",
+        "description": "Astro waking up from his nap"
+    }
+]
