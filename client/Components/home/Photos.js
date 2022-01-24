@@ -6,7 +6,7 @@ import { Box, IconButton, Paper } from "@mui/material";
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-import data from '../photos/homePhotos.json';
+import data from '../photos/gallery.json';
 
 
 function Photos() {
@@ -29,15 +29,15 @@ function Photos() {
 
     return(
         <Box className="flex-col alignment photo-container blur">
-                <img src={currentPhoto}/>
-                <Box style={{display: 'flex', justifyContent: 'space-between', width: '50%'}}>
-                    <IconButton onClick={handlePrevPhoto}>
-                        <ArrowBackIosNewIcon className="button"/>
-                    </IconButton>
-                    <IconButton onClick={handleNextPhoto}>
-                        <ArrowForwardIosIcon className="button" />
-                    </IconButton>
-                </Box>
+            <img src={currentPhoto} style={{borderRadius: 4}}/>
+            <Box style={{display: 'flex', justifyContent: 'space-between', width: '50%'}}>
+                <IconButton onClick={handlePrevPhoto}>
+                    <ArrowBackIosNewIcon className="button"/>
+                </IconButton>
+                <IconButton onClick={handleNextPhoto}>
+                    <ArrowForwardIosIcon className="button" />
+                </IconButton>
+            </Box>
             {/* <Box width={'25vw'}>
                 <Paper className="photo-description">
                     {photoDescription[currPhoto]}
