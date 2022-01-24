@@ -1,49 +1,45 @@
 import React from "react";
+import data from './eventData/events.json'
 
 //MATERIAL UI
-import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+
+//COMPONENTS
+import TodaysEventCard from "./TodaysEventCard";
+import FutureEventCards from "./FutureEventCards";
 
 function EventList(props) {
     const { date } = props;
+    //ddd MMM DD YYYY
     let todaysDate = date.toDateString().split(' ');
-
-    // let todaysDate = Array.isArray(date) ? new Date().toDateString().split(' ') : date.toDateString().split(' ');
-
-    // const options = { dateStyle: "full" };
-    // const testDate = new Date(todaysDate[3], 0, todaysDate[2]);
-    // let formattedDate = new Intl.DateTimeFormat('en-US', options).format(testDate);
-
-    let weekday = todaysDate[0];
-    let month = todaysDate[1];
-    let day = todaysDate[2];
-    let year = todaysDate[3];
-
-    console.log(date);
+    let formattedDate = `${todaysDate[1]} ${todaysDate[2]}, ${todaysDate[3]}`.toLowerCase();
+    
+    //TODAYS EVENTS
+    const todaysSoccerGames = data.filter((event) => event.type === 'test-sports-soccer' && event.date === formattedDate);
+    const todaysDjs = data.filter((event) => event.type === 'test-dj' && event.date === formattedDate);
+    //FUTURE EVENTS
+    const futureSoccerGames = data.filter((event) => event.type === 'test-sports-soccer' && event.date !== todaysDate);
+    const futureDjs = data.filter((event) => event.type === 'test-dj' && event.date !== todaysDate);
 
     return(
         <>
-            <Box style={{width: '60%'}}>
+            <Box className="scrollbar" style={{width: '60%', padding: 15, overflowY: 'auto'}}>
                 <Typography fontSize={25} textAlign={'center'}>
                     List of Events for:
+                    <br/>
+                    <span style={{fontSize: 20, fontWeight: 800}}>
+                        {`${todaysDate[0]}, ${todaysDate[1]} ${todaysDate[2]}, ${todaysDate[3]}`}
+                    </span>
                 </Typography>
-                <Typography fontSize={20} fontWeight={'bold'} textAlign={'center'}>
-                    {`${weekday}, ${month} ${day}, ${year}`}
+                <TodaysEventCard games={todaysSoccerGames} djs={todaysDjs}/>
+
+                <hr/>
+                
+                <Typography fontSize={25} textAlign={'center'} marginTop={2}>
+                    Upcoming Events
                 </Typography>
-                <Box style={{marginTop: '25px'}}>
-                    <Card style={{display: 'flex', padding: 10, backgroundColor: 'rgba(255, 51, 51, .8)'}}>
-                        <CardMedia
-                            component='img'
-                            style={{width: 150, borderTopLeftRadius: 15, borderBottomRightRadius: 15}}
-                            image='https://i.imgur.com/kOEWintm.jpg'
-                            alt='Event Image'
-                        />
-                        <CardContent >
-                            <Typography>EVENT TITLE</Typography>
-                            <Typography>EVENT DESCRIPTION</Typography>
-                            <Typography>EVENT DURATION/TIME</Typography>
-                        </CardContent>
-                    </Card>
-                </Box>
+                <FutureEventCards games={futureSoccerGames} djs={futureDjs}/>
+                
             </Box>
         </>
     )
