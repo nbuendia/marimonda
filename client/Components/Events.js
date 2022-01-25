@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Calendar from 'react-calendar';
 
 //MATERIAL UI
-import { Box, Container, Grid, Tab, Tabs, Typography } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import Photos from "./home/Photos";
 import EventList from "./events/EventList";
 
