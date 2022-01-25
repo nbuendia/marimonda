@@ -26,11 +26,11 @@ function TodaysEventCard(props) {
                                         {game.title.toUpperCase()}
                                     </Typography>
                                     <Typography fontSize={20} fontWeight={800} textAlign={'center'}>
-                                        {game.description.toUpperCase()}
+                                        {game.description}
                                     </Typography>
                                     <br/>
                                     <Typography fontSize={20} textAlign={'center'}>
-                                        {`${game.date.toUpperCase()} at ${game.time.toUpperCase()}`}
+                                        Game start time: <b>{game.time}</b>
                                     </Typography>
                                 </CardContent>
                             </Card>
@@ -57,7 +57,7 @@ function TodaysEventCard(props) {
                                     </Typography>
                                     <br/>
                                     <Typography fontSize={20} textAlign={'center'}>
-                                        {`${dj.date.toUpperCase()} at ${dj.time.toUpperCase()}`}
+                                        DJ spin time: <b>{dj.time}</b>
                                     </Typography>
                                 </CardContent>
                             </Card>
