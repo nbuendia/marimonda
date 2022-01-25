@@ -17,6 +17,7 @@ function EventList(props) {
     //TODAYS EVENTS
     const todaysSoccerGames = data.filter((event) => event.type === 'test-sports-soccer' && event.date === formattedDate);
     const todaysDjs = data.filter((event) => event.type === 'test-dj' && event.date === formattedDate);
+    
     //FUTURE EVENTS
     const futureSoccerGames = data.filter((event) => event.type === 'test-sports-soccer' && event.date !== todaysDate);
     const futureDjs = data.filter((event) => event.type === 'test-dj' && event.date !== todaysDate);
@@ -31,15 +32,29 @@ function EventList(props) {
                         {`${todaysDate[0]}, ${todaysDate[1]} ${todaysDate[2]}, ${todaysDate[3]}`}
                     </span>
                 </Typography>
-                <TodaysEventCard games={todaysSoccerGames} djs={todaysDjs}/>
+
+                {todaysSoccerGames.length || todaysDjs.length ? 
+                    <TodaysEventCard games={todaysSoccerGames} djs={todaysDjs}/> 
+                    : 
+                    <Typography fontSize={20} textAlign={'center'} marginTop={5}>
+                        No Current Events<br/>
+                        Book your event with us today!
+                    </Typography>
+                }
 
                 <hr/>
                 
-                <Typography fontSize={25} textAlign={'center'} marginTop={2}>
+                {/* <Typography fontSize={25} textAlign={'center'} marginTop={2}>
                     Upcoming Events
                 </Typography>
-                <FutureEventCards games={futureSoccerGames} djs={futureDjs}/>
-                
+
+                {futureSoccerGames.length || futureDjs.length ?
+                    <FutureEventCards games={futureSoccerGames} djs={futureDjs}/> 
+                    : 
+                    <Typography>
+                        No Future Events
+                    </Typography>
+                }                 */}
             </Box>
         </>
     )
