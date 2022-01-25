@@ -9,20 +9,41 @@ function FutureEventCards(props) {
     return(
         <>
             <Box style={{marginTop: '20px'}}>
-                <Card style={{display: 'flex', padding: 10, backgroundColor: 'rgba(255, 51, 51, .8)'}}>
-                    <CardMedia
-                        component='img'
-                        style={{width: 150, borderTopLeftRadius: 15, borderBottomRightRadius: 15}}
-                        image='https://i.imgur.com/kOEWintm.jpg'
-                        alt='Event Image'
-                    />
-                    <CardContent >
-                        <Typography>EVENT TITLE</Typography>
-                        <Typography>EVENT DATE</Typography>
-                        <Typography>EVENT DURATION/TIME</Typography>
-                        <Typography>EVENT DESCRIPTION</Typography>
-                    </CardContent>
-                </Card>
+                {games.length ?
+                    <>
+                        <Card style={{display: 'flex', backgroundColor: 'rgba(255, 51, 51, .8)',  padding: 10, marginBottom: 10}}>
+                            <CardMedia
+                                component='img'
+                                style={{width: 150, borderTopLeftRadius: 15, borderBottomRightRadius: 15}}
+                                image='https://i.imgur.com/kOEWintm.jpg'
+                                alt='Event Image'
+                            />
+                            <CardContent >
+                                <Typography>EVENT TITLE</Typography>
+                                <Typography>EVENT DESCRIPTION</Typography>
+                                <Typography>EVENT DURATION/TIME</Typography>
+                            </CardContent>
+                        </Card>
+                    </> : ''
+                }
+
+                {djs.length ?
+                    <>
+                        <Card style={{display: 'flex', backgroundColor: 'rgba(255, 51, 51, .8)', padding: 10, marginBottom: 10}}>
+                            <CardMedia
+                                component='img'
+                                style={{width: 150, borderTopLeftRadius: 15, borderBottomRightRadius: 15}}
+                                image='https://i.imgur.com/kOEWintm.jpg'
+                                alt='Event Image'
+                            />
+                            <CardContent >
+                                <Typography>EVENT TITLE</Typography>
+                                <Typography>EVENT DESCRIPTION</Typography>
+                                <Typography>EVENT DURATION/TIME</Typography>
+                            </CardContent>
+                        </Card>
+                    </> : ''
+                }
             </Box>
         </>
     )
