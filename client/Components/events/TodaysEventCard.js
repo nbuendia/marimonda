@@ -5,23 +5,65 @@ import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 function TodaysEventCard(props) {
     const { games, djs } = props;
+    const genericSportImg = 'https://i.imgur.com/qavLjLf.png';
+    const genericDjImg = 'https://i.imgur.com/G7KyVBY.png';
 
     return(
         <>
             <Box style={{marginTop: '20px'}}>
-                <Card style={{display: 'flex', padding: 10, backgroundColor: 'rgba(255, 51, 51, .8)'}}>
-                    <CardMedia
-                        component='img'
-                        style={{width: 150, borderTopLeftRadius: 15, borderBottomRightRadius: 15}}
-                        image='https://i.imgur.com/kOEWintm.jpg'
-                        alt='Event Image'
-                    />
-                    <CardContent >
-                        <Typography>EVENT TITLE</Typography>
-                        <Typography>EVENT DESCRIPTION</Typography>
-                        <Typography>EVENT DURATION/TIME</Typography>
-                    </CardContent>
-                </Card>
+                {games.length ?
+                    <>
+                        {games.map((game) => (
+                            <Card key={game.id} style={{display: 'flex', backgroundColor: 'rgba(255, 51, 51, .8)',  padding: 10, marginBottom: 10}}>
+                                <CardMedia
+                                    component='img'
+                                    style={{width: 125, borderTopLeftRadius: 15, borderBottomRightRadius: 15, backgroundColor: 'rgba(211, 211, 211, 0.5)'}}
+                                    image={game.img === null ? genericSportImg : game.img}
+                                    alt='Event Image'
+                                />
+                                <CardContent style={{width: '100%'}}>
+                                    <Typography fontSize={35} fontWeight={800} textAlign={'center'}>
+                                        {game.title.toUpperCase()}
+                                    </Typography>
+                                    <Typography fontSize={20} fontWeight={800} textAlign={'center'}>
+                                        {game.description.toUpperCase()}
+                                    </Typography>
+                                    <br/>
+                                    <Typography fontSize={20} textAlign={'center'}>
+                                        {`${game.date.toUpperCase()} at ${game.time.toUpperCase()}`}
+                                    </Typography>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </> : ''
+                }
+
+                {djs.length ?
+                    <>
+                        {djs.map((dj) => (
+                            <Card key={dj.id} style={{display: 'flex', backgroundColor: 'rgba(255, 51, 51, .8)', padding: 10, marginBottom: 10}}>
+                                <CardMedia
+                                    component='img'
+                                    style={{width: 125, borderTopLeftRadius: 15, borderBottomRightRadius: 15}}
+                                    image={dj.img === null ? genericDjImg : dj.img}
+                                    alt='Event Image'
+                                />
+                                <CardContent style={{width: '100%'}}>
+                                    <Typography fontSize={35} fontWeight={800} textAlign={'center'}>
+                                        {dj.title}
+                                    </Typography>
+                                    <Typography fontSize={20} fontWeight={800} textAlign={'center'}>
+                                        {dj.description}
+                                    </Typography>
+                                    <br/>
+                                    <Typography fontSize={20} textAlign={'center'}>
+                                        {`${dj.date.toUpperCase()} at ${dj.time.toUpperCase()}`}
+                                    </Typography>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </> : ''
+                }
             </Box>
         </>
     )
